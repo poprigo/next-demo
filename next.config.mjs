@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    
-    basePath: '/github-pages',
+
+    basePath: '/poprigo.github.io',
+    // images: {
+    //     domains: ['poprigo.github.io'],
+    // },
 };
 
 export default nextConfig;
