@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    // reactStrictMode: true,
 
-    // basePath: '/poprigo.github.io',
-    images: {
-        unoptimized: true,
-    },
+const repo = 'poprigo/next-demo.git'
+const assetPrefix = `/${repo}/`
+const basePath = `/${repo}`
+
+const nextConfig = {
+    assetPrefix: assetPrefix,
+    basePath: basePath,
 };
 
 export default nextConfig;
+
 
