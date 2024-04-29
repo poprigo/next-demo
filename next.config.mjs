@@ -4,7 +4,7 @@ const nextConfig = {
 
     // basePath: '/poprigo.github.io',
     images: {
-        domains: ['poprigo.github.io'],
+        unoptimized: true,
     },
 };
 
